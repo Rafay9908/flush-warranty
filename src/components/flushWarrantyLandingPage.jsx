@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 import homePic from "../assets/home_man.png"
 const FlushWarrantyLandingPage = () => {
     return (
-        <div className="bg-blue-100 flex flex-col items-center">
+        <div className="bg-[#A7EDFF] flex flex-col items-center">
             <Navbar />
             <main className="w-full max-w-screen-lg flex flex-col lg:flex-row items-center gap-8 p-4">
                 <div className="flex-1 flex justify-center items-center">

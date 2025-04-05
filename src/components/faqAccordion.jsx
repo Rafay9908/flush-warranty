@@ -36,7 +36,7 @@ const FAQAccordion = () => {
   };
 
   return (
-    <div id="faq" className="bg-blue-50 flex justify-center p-4">
+    <div id="faq" className="bg-blue-50 flex justify-center p-4 pb-[80px]">
       <div className="w-full max-w-2xl">
         <h2 className="text-4xl font-bold text-center text-blue-900 mb-6">Frequently Asked Questions</h2>
         <div className="space-y-2">

@@ -5,6 +5,8 @@ import FlushWarrantyFooter from "./components/FlushWarrantyFooter";
 import FlushWarrantyLandingPage from "./components/flushWarrantyLandingPage";
 import FlushWarranty from "./components/flushWarrantyVideo";
 import HowItWorks from "./components/howItWorks";
+import LostPassword from "./components/LostPassword/LostPassword";
+import MyAccount from "./components/MyAccount/MyAccount";
 import PropertySale from "./components/propertySale";
 import ProtectionPlan from "./components/protectionPlan";
 import SepticSystemSlider from "./components/septicSystemSlider";
@@ -14,28 +16,32 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/about-us" element={<AboutAll/>} />
-        <Route path="/contact-us" element={<ContactAll/>} />
-        <Route path="/shop" element={<Shop/>}/>
-        <Route path="/" element={
-          <>
-            <div>
-              <FlushWarrantyLandingPage />
-              <ProtectionPlan />
-              <PropertySale />
-              <HowItWorks id="how-it-works" />
-              <FlushWarranty />
-              <SepticSystemSlider />
-              <TestimonialsComponent />
-              <FAQAccordion id="faq" />
-              <FlushWarrantyFooter />
-            </div>
-          </>
-        } />
-      </Routes>
-    </Router>
+   
+<Router>
+  <Routes>
+    <Route path="/about-us" element={<AboutAll />} />
+    <Route path="/contact-us" element={<ContactAll />} />
+    <Route path="/shop" element={<Shop />} />
+    <Route path="/lost-password" element={<LostPassword />} />
+    <Route path="/my-account" element={<MyAccount/>} />
+
+    <Route path="/" element={
+      <>
+        <div>
+          <FlushWarrantyLandingPage />
+          <ProtectionPlan />
+          <PropertySale />
+          <HowItWorks id="how-it-works" />
+          <FlushWarranty />
+          <SepticSystemSlider />
+          <TestimonialsComponent />
+          <FAQAccordion id="faq" />
+          <FlushWarrantyFooter />
+        </div>
+      </>
+    } />
+  </Routes>
+</Router>
   );
 }
 
