@@ -11,17 +11,18 @@ const ProtectionPlan = () => {
                 </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-                <div className="flex flex-col items-center bg-transparent hover:bg-white p-6 hover:shadow-lg transition">
-                    <Wallet className="text-blue-600 w-12 h-12 mb-4" />
+            <div className="flex flex-col items-center bg-transparent hover:bg-white p-6 hover:shadow-lg transition hover:border-2 hover:border-gray-300 rounded-lg hover:rounded-xl">
+            <Wallet className="text-blue-600 w-12 h-12 mb-4" />
                     <h3 className="text-xl font-semibold">Your Wallet</h3>
                     <p className="text-gray-600 text-center">Helps you pay for large repair and replacement costs</p>
                 </div>
-                <div className="flex flex-col items-center bg-transparent hover:bg-white p-6 hover:shadow-lg transition">
-                    <Clock className="text-blue-600 w-12 h-12 mb-4" />
+                <div className="flex flex-col items-center bg-transparent hover:bg-white p-6 hover:shadow-lg transition hover:border-2 hover:border-gray-300 rounded-lg hover:rounded-xl">
+                <Clock className="text-blue-600 w-12 h-12 mb-4" />
                     <h3 className="text-xl font-semibold">Your Time</h3>
                     <p className="text-gray-600 text-center">Eliminates the hassle of finding qualified service providers</p>
                 </div>
-                <div className="flex flex-col items-center bg-transparent hover:bg-white p-6 hover:shadow-lg transition">
+                <div className="flex flex-col items-center bg-transparent hover:bg-white p-6 hover:shadow-lg transition hover:border-2 hover:border-gray-300 rounded-lg hover:rounded-xl">
+
                     <Brain className="text-blue-600 w-12 h-12 mb-4" />
                     <h3 className="text-xl font-semibold">Your Peace Of Mind</h3>
                     <p className="text-gray-600 text-center">Gives you a plan, and partner, to deal with the unexpected.</p>
