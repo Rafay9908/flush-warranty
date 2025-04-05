@@ -8,6 +8,7 @@ import HowItWorks from "./components/howItWorks";
 import PropertySale from "./components/propertySale";
 import ProtectionPlan from "./components/protectionPlan";
 import SepticSystemSlider from "./components/septicSystemSlider";
+import Shop from "./components/Shop/Shop";
 import TestimonialsComponent from "./components/testimonialsComponent";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/about-us" element={<AboutAll/>} />
         <Route path="/contact-us" element={<ContactAll/>} />
+        <Route path="/shop" element={<Shop/>}/>
         <Route path="/" element={
           <>
             <div>
