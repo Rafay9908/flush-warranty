@@ -1,4 +1,5 @@
 import AboutAll from "./components/AboutUs/aboutAll";
+import BillingForm from "./components/billingForm";
 import ContactAll from "./components/ContactUs/contactAll";
 import FAQAccordion from "./components/fAQAccordion";
 import FlushWarrantyFooter from "./components/FlushWarrantyFooter";
@@ -24,6 +25,7 @@ function App() {
     <Route path="/shop" element={<Shop />} />
     <Route path="/lost-password" element={<LostPassword />} />
     <Route path="/my-account" element={<MyAccount/>} />
+    <Route path="/billing" element={<BillingForm/>} />
 
     <Route path="/" element={
       <>

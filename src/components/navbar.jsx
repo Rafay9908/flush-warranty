@@ -11,7 +11,9 @@ const Navbar = () => {
     <header className="w-full bg-[#A7EDFF] py-4 rounded">
       <div className="max-w-screen-lg mx-auto flex justify-between items-center px-4">
         <div className="flex items-center gap-2">
+          <NavLink to="/">
           <img src={footer_icon} alt="Flush Logo" className="w-25 h-25" />
+          </NavLink>
         </div>
         <div className="hidden lg:flex items-center gap-6">
           <div className="bg-white rounded-full px-6  shadow-md flex gap-8 items-center">
